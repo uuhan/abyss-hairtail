@@ -1,0 +1,11 @@
+[package]
+name = "abyss-hairtail"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "hairtail"
+path = "src/main.rs"
+
+[dependencies]
+rhai = "1.4.0"
